@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2014122275_ENT.Entities.IRepositories
+namespace _2014122275_ENT.IRepositories
 {
     public interface ITipoViajeRepository : IRepository<TipoViaje>
     {
-        IEnumerable<TipoViaje> GetTipoViajeByTransporte(Transporte transporte);
     }
 }

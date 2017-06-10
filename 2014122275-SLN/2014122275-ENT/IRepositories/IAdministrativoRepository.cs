@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2014122275_ENT.Entities.IRepositories
+namespace _2014122275_ENT.IRepositories
 {
     public interface IAdministrativoRepository : IRepository<Administrativo>
     {
-        IEnumerable<Administrativo> GetVentasByAdministrativo(Venta venta);
-        
-        
     }
 }
